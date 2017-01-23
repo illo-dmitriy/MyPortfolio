@@ -1,0 +1,363 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.slide-text {
+    	line-height: 30px;
+    	width: 100%;
+    	font-size: 30px;
+    	font-weight: bold;
+    	position: absolute;
+    	top: 35%;
+    	right: -25%;
+    	text-align: left;
+	}
+	.section-about {
+		padding-left: 0;
+		padding-right:0;
+	}
+	.foto{
+		text-align: center;
+	}
+	.section-portfolio .scrin1 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin2 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin3 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin4 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin5 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin6 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin7 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin8 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin9 {
+    	width: 580px;
+    	height: 290px;
+    }
+    .section-portfolio .scrin10 {
+    	width: 580px;
+    	height: 290px;
+    }
+	.section-technologies .wrapper-carousel .prev {
+    	left: 50px;
+	}
+	.section-technologies .wrapper-carousel .next {
+    	right: 50px;
+	}
+	.section-mail input {
+    	width: 50%;
+    	margin-bottom: 10px;
+	}
+
+	.section-mail input[type="submit"] {
+		width: 30%;
+		margin-bottom: 30px;
+	}
+	.section-mail .but {
+    	text-align: left;
+	}
+	footer .created {
+    	text-align: center;
+    	font-size: 12px;
+    	padding-top: 0;
+    	padding-bottom: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.slide-text {
+		line-height: 30px;
+    	width: 100%;
+    	font-size: 20px;
+    	font-weight: bold;
+    	position: absolute;
+    	top: 20%;
+    	right: -20%;
+    	text-align: left;
+	}
+	.navbar-toggle {
+    	margin-top: 50px;
+    	margin-right: 20px;
+	}
+	.section-about {
+		padding-left: 0;
+		padding-right:0;
+	}
+	.foto{
+		text-align: center;
+	}
+	 .section-portfolio .scrin1 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin2 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin3 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin4 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin5 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin6 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin7 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin8 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin9 {
+    	width: 340px;
+    	height: 170px;
+    }
+    .section-portfolio .scrin10 {
+    	width: 340px;
+    	height: 170px;
+    }
+	.section-technologies .wrapper-carousel .prev {
+    	left: 100px;
+	}
+	.section-technologies .wrapper-carousel .next {
+    	right: 100px;
+	}
+	.section-mail input {
+    	width: 70%;
+    	margin-bottom: 10px;
+	}
+	.section-mail input[type="submit"] {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.section-mail .but {
+    	text-align: left;
+	}
+	footer .created {
+    	text-align: center;
+    	font-size: 10px;
+    	padding-top: 0;
+    	padding-bottom: 10px;
+    }
+    footer .logo {
+    	text-align: center;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.slide-text {
+    	line-height: 30px;
+    	width: 100%;
+    	font-size: 20px;
+    	top: 20%;
+    	right: -22%;
+	}
+	.navbar-toggle {
+    	margin-top: 50px;
+    	margin-right: 20px;
+	}
+	.section-about {
+		padding-left: 0;
+		padding-right:0;
+	}
+	.foto{
+		text-align: center;
+	}
+	.section-technologies .wrapper-carousel .prev {
+    	left: 60px;
+	}
+	.section-technologies .wrapper-carousel .next {
+    	right: 60px;
+	}
+	.section-mail input {
+    	width: 70%;
+    	margin-bottom: 10px;
+	}
+	.section-mail input[type="submit"] {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.section-mail .but {
+    	text-align: left;
+	}
+	footer .logo {
+    	text-align: center;
+	}
+	footer .created {
+    	text-align: center;
+    	font-size: 10px;
+    	padding-top: 0;
+    	padding-bottom: 10px;
+    }
+    .section-portfolio .scrin10 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin10 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin10 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin9 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin9 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin9 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin8 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin8 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin8 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin7 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin7 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin7 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin6 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin6 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin6 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin5 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin5 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin5 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin4 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin4 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin4 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin3 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin3 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin3 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin2 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin2 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin2 .text h3 {
+    	font-size: 24px;
+	}
+    .section-portfolio .scrin1 {
+    	width: 280px;
+    	height: 140px;
+    }
+    .section-portfolio .scrin1 .text {
+    	font-size: 14px;
+    }
+    .section-portfolio .scrin1 .text h3 {
+    	font-size: 24px;
+	}
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
